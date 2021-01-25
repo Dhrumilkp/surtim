@@ -150,7 +150,7 @@
                         </div>
                         <div class="form-group">
                             <label for="name">Product Cost</label>
-                            <input class="form-control" name="book_cost" id="book_cost" type="number" placeholder="book cost" required>
+                            <input class="form-control" name="book_cost" id="book_cost" type="number" placeholder="Product cost" required>
                         </div>
                         <div class="form-group">
                             <label for="name">Product Weight</label>
@@ -158,7 +158,7 @@
                         </div>
                         <div class="form-group">
                             <label for="name">Ingridence</label>
-                            <input class="form-control" name="book_page_count" id="book_page_count" type="number" placeholder="product ingridence" required>
+                            <input class="form-control" name="book_page_count" id="book_page_count" type="text" placeholder="product ingridence" required>
                         </div>
                         <div class="form-group">
                             <label for="name">Product Amazon URL</label>
@@ -186,7 +186,7 @@
                     <form id="edit-book-form" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="name">Title Of Product</label>
-                            <input class="form-control" name="book_title" id="book_title_edit" type="text" placeholder="book title" required>
+                            <input class="form-control" name="book_title" id="book_title_edit" type="text" placeholder="Product title" required>
                         </div>
                         <div class="form-group">
                             <label for="name">Book Category</label>
@@ -221,7 +221,7 @@
                         </div>
                         <div class="form-group">
                             <label for="name">Ingridence</label>
-                            <input class="form-control" name="book_page_count" id="book_page_count_edit" type="number" placeholder="Product ingredience" required>
+                            <input class="form-control" name="book_page_count" id="book_page_count_edit" type="text" placeholder="Product ingredience" required>
                         </div>
                         <div class="form-group">
                             <label for="name">Product Amazon URL</label>

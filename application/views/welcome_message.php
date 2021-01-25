@@ -79,7 +79,7 @@
                                                             </div>
                                                             <div class="price-block">
                                                                 <h3>
-                                                                    <a href="<?php echo base_url(); ?>shop/book/<?php echo $row['book_id']; ?>"><?php echo $row['book_title']; ?></a>
+                                                                    <a href="<?php echo base_url(); ?>shop/product/<?php echo $row['book_id']; ?>"><?php echo $row['book_title']; ?></a>
                                                                 </h3>
                                                                 <span class="price">₹<?php echo $row['book_cost']; ?></span>
                                                             </div>

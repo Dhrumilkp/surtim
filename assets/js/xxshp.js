@@ -27,7 +27,7 @@ $(document).on('submit', '#add-book-form', function (e) {
 			},
 			success: function (response) {
 				if (response.status == "success") {
-					alert("Book Uploaded");
+					alert("Product Uploaded");
 					location.reload();
 				}
 			}
@@ -52,7 +52,7 @@ $(document).on('submit', '#edit-book-form', function (e) {
 			},
 			success: function (response) {
 				if (response.status == "success") {
-					alert("Book Edited");
+					alert("Product Edited");
 					location.reload();
 				}
 			}
@@ -91,7 +91,7 @@ function deletebook(bookid)
 		dataType: "json",
 		success: function (response) {
 			if (response.status == "success") {
-				alert("Book Deleted");
+				alert("Product Deleted");
 				location.reload();
 			}
 		}

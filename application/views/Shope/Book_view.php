@@ -49,7 +49,7 @@
 						<p class="tag-block">Product Category	: <?php echo $get_book_data['cat_name']; ?></p>
 						<h3 class="product-title"><?php echo $get_book_data['book_title']; ?></h3>
 						<ul class="list-unstyled">
-							<li>Brand Name: <a href="<?php echo base_url(); ?>" class="list-value font-weight-bold"> Aakar Publication</a></li>
+							<li>Brand Name: <a href="<?php echo base_url(); ?>" class="list-value font-weight-bold"> Surti Mix</a></li>
 							<li>Availability: <span class="list-value"> In Stock</span></li>
 							<li>Product weight: <span class="list-value"> <?php echo $get_book_data['book_weight']; ?> grams</span></li>
 							<li>Ingredience: <span class="list-value"> <?php echo $get_book_data['book_page_count']; ?></span></li>
