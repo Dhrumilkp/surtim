@@ -16,9 +16,8 @@
 <body>
 	<form class="form-signin" id="login-form">
 		<div class="text-center mb-4">
-			<img class="mb-4" src="theme/image/logo.png" alt="">
-			<h1 class="h3 mb-3 font-weight-normal">Aakar Publication</h1>
-			<p>Sculpturing life</p>
+			<img class="mb-4" src="theme/image/logo.png" alt="" style="width:150px;">
+			<h1 class="h3 mb-3 font-weight-normal">Surtimix</h1>
 		</div>
 		<div class="mt-2 mb-2">
 			<input type="text" class="form-control form-control-lg" id="a_email" name="a_email" placeholder="Enter your username" required/>
