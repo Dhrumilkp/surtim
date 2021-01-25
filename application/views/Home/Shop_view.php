@@ -122,17 +122,17 @@
                 <div class="modal-body">
                     <form id="add-book-form" enctype="multipart/form-data">
                         <div class="form-group">
-                            <label for="name">Title Of Book</label>
-                            <input class="form-control" name="book_title" id="book_title" type="text" placeholder="book title" required>
+                            <label for="name">Title Of Product</label>
+                            <input class="form-control" name="book_title" id="book_title" type="text" placeholder="Product title" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Category</label>
+                            <label for="name">Product Category</label>
                             <select name="book_cat" class="form-control" required>
                                 <?php 
                                     if(!empty($book_cat))
                                     {
                                         ?>
-                                            <option disabled selected>Select Book Category</option>
+                                            <option disabled selected>Select Product Category</option>
                                         <?
                                         foreach($book_cat as $row)
                                         {
@@ -145,31 +145,31 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Description</label>
+                            <label for="name">Product Description</label>
                             <textarea name="book_desc" id="book_desc" cols="30" rows="10" class="form-control" required></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Cost</label>
+                            <label for="name">Product Cost</label>
                             <input class="form-control" name="book_cost" id="book_cost" type="number" placeholder="book cost" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Weight</label>
-                            <input class="form-control" name="book_weight" id="book_weight" type="number" placeholder="book page weight in grams" required>
+                            <label for="name">Product Weight</label>
+                            <input class="form-control" name="book_weight" id="book_weight" type="number" placeholder="product weight in grams" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Page Count</label>
-                            <input class="form-control" name="book_page_count" id="book_page_count" type="number" placeholder="book page count" required>
+                            <label for="name">Ingridence</label>
+                            <input class="form-control" name="book_page_count" id="book_page_count" type="number" placeholder="product ingridence" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Amazon URL</label>
-                            <input class="form-control" name="book_amz_url" id="book_amz_url" type="url" placeholder="book url on amazon" required>
+                            <label for="name">Product Amazon URL</label>
+                            <input class="form-control" name="book_amz_url" id="book_amz_url" type="url" placeholder="product url on amazon" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Images</label>
+                            <label for="name">Product Images</label>
                             <input type="file" name="files[]" id="book_img" accept=".png,.jpg" multiple required>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary btn-block" type="submit" id="upload-book-btn">Upload Book</button>
+                            <button class="btn btn-primary btn-block" type="submit" id="upload-book-btn">Upload Product</button>
                         </div>
                     </form>
                 </div>
@@ -180,12 +180,12 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Book Model</h5><button class="close" type="button" data-dismiss="modal" aria-label="Close"><span class="font-weight-light" aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Product Model</h5><button class="close" type="button" data-dismiss="modal" aria-label="Close"><span class="font-weight-light" aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
                     <form id="edit-book-form" enctype="multipart/form-data">
                         <div class="form-group">
-                            <label for="name">Title Of Book</label>
+                            <label for="name">Title Of Product</label>
                             <input class="form-control" name="book_title" id="book_title_edit" type="text" placeholder="book title" required>
                         </div>
                         <div class="form-group">
@@ -195,7 +195,7 @@
                                     if(!empty($book_cat))
                                     {
                                         ?>
-                                            <option disabled selected>Select Book Category</option>
+                                            <option disabled selected>Select Product Category</option>
                                         <?
                                         foreach($book_cat as $row)
                                         {
@@ -208,32 +208,32 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Description</label>
+                            <label for="name">Product Description</label>
                             <textarea name="book_desc" id="book_desc_edit" cols="30" rows="10" class="form-control" required></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Cost</label>
-                            <input class="form-control" name="book_cost" id="book_cost_edit" type="number" placeholder="book cost" required>
+                            <label for="name">Product Cost</label>
+                            <input class="form-control" name="book_cost" id="book_cost_edit" type="number" placeholder="Product cost" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Weight</label>
-                            <input class="form-control" name="book_weight" id="book_weight_edit" type="number" placeholder="book page weight in grams" required>
+                            <label for="name">Product Weight</label>
+                            <input class="form-control" name="book_weight" id="book_weight_edit" type="number" placeholder="Product page weight in grams" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Page Count</label>
-                            <input class="form-control" name="book_page_count" id="book_page_count_edit" type="number" placeholder="book page count" required>
+                            <label for="name">Ingridence</label>
+                            <input class="form-control" name="book_page_count" id="book_page_count_edit" type="number" placeholder="Product ingredience" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Amazon URL</label>
-                            <input class="form-control" name="book_amz_url" id="book_amz_url_edit" type="url" placeholder="book url on amazon" required>
+                            <label for="name">Product Amazon URL</label>
+                            <input class="form-control" name="book_amz_url" id="book_amz_url_edit" type="url" placeholder="Product url on amazon" required>
                         </div>
                         <div class="form-group">
-                            <label for="name">Book Images</label>
+                            <label for="name">Product Images</label>
                             <input type="file" name="files[]" id="book_img" accept=".png,.jpg" multiple required>
                             <input type="hidden" name="bookid" id="bookid"/>
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-primary btn-block" type="submit" id="upload-book-btn">Upload Book</button>
+                            <button class="btn btn-primary btn-block" type="submit" id="upload-book-btn">Upload Product</button>
                         </div>
                     </form>
                 </div>
