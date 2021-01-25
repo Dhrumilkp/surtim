@@ -29,7 +29,7 @@ class Welcome extends CI_Controller {
 	}
 	public function shop($type,$id)
     {
-		if($type == "book")
+		if($type == "product")
 		{
 			$data['category_data'] = $this->Home_model->getcatdata();
 			$data['get_contact_data'] = $this->Home_model->getcontact_data();
