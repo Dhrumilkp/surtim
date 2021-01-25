@@ -53,18 +53,18 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <h6>Add Book To Shop</h6>
+                                <h6>Add Product To Shop</h6>
                             </div>
                             <div class="card-body">
                                 <h5 class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif text-warning"><?php echo $book_count; ?></h5>
-                                <a href="javascript:;" onclick="addbooks()" class="text-primary">Add Books</a>
+                                <a href="javascript:;" onclick="addbooks()" class="text-primary">Add Product</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-12" style="margin-top:20px;">
                         <div class="card">
                             <div class="card-header">
-                                <h6>Books (<?php echo $book_count; ?>)</h6>
+                                <h6>Product (<?php echo $book_count; ?>)</h6>
                             </div>
                             <div class="card-body">
                                 <div class="row">
@@ -81,8 +81,8 @@
                                                             <div class="card-body">
                                                                 <h5 class="card-title"><?php echo $row['book_title'] ?></h5>
                                                                 <h6>Category    :   <?php echo $row['cat_name'] ?></h6>
-                                                                <button value="<?php echo $row['book_id']; ?>" class="btn btn-primary btn-md" onclick="editbook(this,<?php echo $row['book_id']; ?>)">Edit Book</button>
-                                                                <button value="<?php echo $row['book_id']; ?>" class="btn btn-danger btn-md" onclick="deletebook(this,<?php echo $row['book_id']; ?>)">Delete Book</button>
+                                                                <button value="<?php echo $row['book_id']; ?>" class="btn btn-primary btn-md" onclick="editbook(this,<?php echo $row['book_id']; ?>)">Edit Product</button>
+                                                                <button value="<?php echo $row['book_id']; ?>" class="btn btn-danger btn-md" onclick="deletebook(this,<?php echo $row['book_id']; ?>)">Delete Product</button>
                                                             </div>
                                                         </div>
                                                     </div>
