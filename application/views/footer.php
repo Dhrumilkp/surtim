@@ -4,7 +4,9 @@
 			<div class="col-xl-12 col-lg-12 col-sm-12">
 				<div class="single-footer pb--40">
 					<div class="brand-footer footer-title">
-						<img src="<?php echo base_url();?>theme/image/logo.png" alt="">
+						<div class="w-100 text-center">
+							<img src="<?php echo base_url();?>theme/image/logo.png" alt="" style="width:150px !important;height:auto !important;">
+						</div>
 					</div>
 					<div class="footer-contact">
 						<p>

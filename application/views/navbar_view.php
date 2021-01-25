@@ -15,7 +15,7 @@
 							</li>
 							<!-- Shop -->
 							<li class="menu-item has-children mega-menu">
-								<a href="<?php echo base_url(); ?>about">About Publication</a>
+								<a href="<?php echo base_url(); ?>about">About Us</a>
 							</li>
 							<!-- Pages -->
 							<li class="menu-item has-children">
@@ -122,7 +122,7 @@
 						</li>
 						<!-- Shop -->
 						<li class="menu-item has-children mega-menu">
-							<a href="<?php echo base_url(); ?>about">About Publication</a>
+							<a href="<?php echo base_url(); ?>about">About Us</a>
 						</li>
 						<!-- Pages -->
 						<li class="menu-item has-children">
@@ -141,14 +141,14 @@
 					<a href="#" class="sin-contact"><i class="fas fa-mobile-alt"></i><?php echo $get_contact_data['contact_number'];?></a>
 					<a href="#" class="sin-contact"><i class="fas fa-envelope"></i><?php echo $get_email_data['a_email']; ?></a>
 				</div>
-				<div class="off-canvas-social">
+				<!-- <div class="off-canvas-social">
 					<a href="#" class="single-icon"><i class="fab fa-facebook-f"></i></a>
 					<a href="#" class="single-icon"><i class="fab fa-twitter"></i></a>
 					<a href="#" class="single-icon"><i class="fas fa-rss"></i></a>
 					<a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
 					<a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
 					<a href="#" class="single-icon"><i class="fab fa-instagram"></i></a>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</aside>
