@@ -1,1 +1,1 @@
-const url = 'http://localhost/surtim/';
+const url = 'http://surtimix.com/';
