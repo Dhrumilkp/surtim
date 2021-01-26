@@ -63,16 +63,12 @@
 	</div>
 	<div class="footer-bottom">
 		<div class="container">
-			<p class="copyright-heading">કોપીરાઇટ 2019. બધા રાઇટ આરક્ષિત.
-				<a href="https://www.workoscope.com" style="color:#62ab00;">વર્કસ્કોપ ઇન્ક એસએમઇ ઇનિશિયેટિવ આઇએન</a>
-				હેઠળ ડિઝાઇન અને વિકસિત</p>
 			<a href="#" class="payment-block">
 				<img src="<?php echo base_url();?>theme/image/icon/payment.png" alt="">
 			</a>
 			<p class="copyright-text">Copyright © 2019 <a href="#" class="author">Surti mix</a>. All Right
 				Reserved.
 				<br>
-				Designed and Developed Under <a href="https://www.workoscope.com">Workoscope Inc SME Initiative IN</a>
 			</p>
 		</div>
 	</div>
