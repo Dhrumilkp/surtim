@@ -37,7 +37,7 @@
 					<nav class="category-nav">
 						<div>
 							<a href="javascript:void(0)" class="category-trigger"><i class="fa fa-bars"></i>Browse
-								book categories</a>
+								product categories</a>
 							<ul class="category-menu">
 								<?php 
                                     if(!empty($category_data))
