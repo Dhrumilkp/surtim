@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 text-center">
-						<h1>About Our Publication</h1>
+						<h1>About Us</h1>
 						<p><i><strong><?php echo $get_about_text_data['subtitle']; ?></strong></i></p>
 					</div>
 					<div class="col-md-12 col-lg-12">
