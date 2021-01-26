@@ -9,6 +9,10 @@ class Welcome extends CI_Controller {
 	}
 	public function index()
 	{
+		$this->load->view('comingsoon.html');
+	}
+	public function landing()
+	{
 		$data['category_data'] = $this->Home_model->getcatdata();
 		$data['get_slider_data'] = $this->Home_model->getslider_data();
 		$data['get_contact_data'] = $this->Home_model->getcontact_data();
