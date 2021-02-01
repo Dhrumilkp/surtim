@@ -56,6 +56,10 @@
 								?>
 							</span>
 						</p>
+						<div class="d-flex" style="justify-content:space-between">
+							<a href="https://www.facebook.com/Surtimix-174657923200222" class="single-icon"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/surtimix/" class="single-icon"><i class="fab fa-instagram"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>
