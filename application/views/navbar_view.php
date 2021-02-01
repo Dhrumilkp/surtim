@@ -170,8 +170,8 @@
 						?>
 				</div>
 				<div class="off-canvas-social">
-					<a href="https://www.facebook.com/Surtimix-174657923200222" class="single-icon"><i class="fab fa-facebook-f"></i></a>
-					<a href="https://www.instagram.com/surtimix/" class="single-icon"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.facebook.com/Surtimix-174657923200222" class="single-icon"><i class="fab fa-facebook-f fa-2x"></i></a>
+					<a href="https://www.instagram.com/surtimix/" class="single-icon"><i class="fab fa-instagram fa-2x"></i></a>
 				</div>
 			</div>
 		</div>
